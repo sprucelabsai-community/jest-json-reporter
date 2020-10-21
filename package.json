@@ -46,6 +46,7 @@
     "typescript": "^4.0.2"
   },
   "jest": {
+    "maxWorkers": 4,
     "testTimeout": 300000,
     "testEnvironment": "node",
     "testPathIgnorePatterns": [
