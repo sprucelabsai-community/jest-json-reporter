@@ -1,5 +1,5 @@
 {
-  "name": "@sprucelabs/jest-sheets-reporter",
+  "name": "@sprucelabs/jest-json-reporter",
   "publishConfig": {
     "access": "public"
   },
