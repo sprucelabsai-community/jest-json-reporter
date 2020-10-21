@@ -1,3 +1,1 @@
-import SheetsReporter from './SheetsReporter'
-
-export default SheetsReporter
+export { default, START_DIVIDER, END_DIVIDER } from './JsonReporter'
