@@ -16,9 +16,9 @@
     "spruce",
     "sprucelabs"
   ],
-  "homepage": "https://github.com/sprucelabsai/jest-sheets-reporter",
+  "homepage": "https://github.com/sprucelabsai/jest-json-reporter",
   "bugs": {
-    "url": "https://github.com/sprucelabsai/jest-sheets-reporter/issues"
+    "url": "https://github.com/sprucelabsai/jest-json-reporter/issues"
   },
   "scripts": {
     "build": "yarn run clean && yarn run build.ts",
