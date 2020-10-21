@@ -16,13 +16,13 @@ export default class SheetsReporter implements Reporter {
 	public getLastError() {}
 	public onTestResult(_: Test, testResult: TestResult) {
 		console.log(START_DIVIDER)
-		console.log(JSON.stringify({ status: 'complete', results: testResult }))
+		console.log(JSON.stringify({ status: 'testComplete', results: testResult }))
 		console.log(END_DIVIDER)
 	}
 
 	public onTestStart(test: Test) {
 		console.log(START_DIVIDER)
-		console.log(JSON.stringify({ status: 'start', test }))
+		console.log(JSON.stringify({ status: 'testStart', test }))
 		console.log(END_DIVIDER)
 	}
 }
