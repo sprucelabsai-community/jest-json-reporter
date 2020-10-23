@@ -1,12 +1,12 @@
 {
-  "name": "@sprucelabs/jest-sheets-reporter",
+  "name": "@sprucelabs/jest-json-reporter",
   "publishConfig": {
     "access": "public"
   },
   "files": [
     "build"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./build/JsonReporter.js",
   "types": "./build/JsonReporter.d.ts",
   "description": "Stream Jest results to stdout in JSON for ingestion by parent processes.",
@@ -16,9 +16,9 @@
     "spruce",
     "sprucelabs"
   ],
-  "homepage": "https://github.com/sprucelabsai/jest-sheets-reporter",
+  "homepage": "https://github.com/sprucelabsai/jest-json-reporter",
   "bugs": {
-    "url": "https://github.com/sprucelabsai/jest-sheets-reporter/issues"
+    "url": "https://github.com/sprucelabsai/jest-json-reporter/issues"
   },
   "scripts": {
     "build": "yarn run clean && yarn run build.ts",
@@ -46,6 +46,7 @@
     "typescript": "^4.0.2"
   },
   "jest": {
+    "maxWorkers": 4,
     "testTimeout": 300000,
     "testEnvironment": "node",
     "testPathIgnorePatterns": [
