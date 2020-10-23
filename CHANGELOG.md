@@ -1,3 +1,10 @@
+# [3.0.0](https://github.com/sprucelabsai/jest-json-reporter/compare/v2.0.0...v3.0.0) (2020-10-23)
+
+
+### Breaking Changes
+
+* status names match reporter callbacks ([0c60a38](https://github.com/sprucelabsai/jest-json-reporter/commit/0c60a38))
+
 # [2.0.0](https://github.com/sprucelabsai/jest-json-reporter/compare/v1.0.1...v2.0.0) (2020-10-23)
 
 
