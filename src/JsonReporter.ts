@@ -46,7 +46,7 @@ export default class SheetsReporter implements Reporter {
 		aggregatedResult: AggregatedResult
 	) {
 		this.render({
-			status: 'testFileResult',
+			status: 'onTestFileResult',
 			test,
 			testResult,
 			aggregatedResult,
@@ -54,19 +54,19 @@ export default class SheetsReporter implements Reporter {
 	}
 
 	public onRunStart(results: AggregatedResult) {
-		this.render({ status: 'runStart', results })
+		this.render({ status: 'onRunStart', results })
 	}
 
 	public onRunComplete(contexts: Set<Context>, results: AggregatedResult) {
-		this.render({ status: 'runComplete', contexts, results })
+		this.render({ status: 'onRunComplete', contexts, results })
 	}
 
 	public onTestCaseResult(test: Test, testCaseResult: AssertionResult) {
-		this.render({ status: 'testCaseResult', test, testCaseResult })
+		this.render({ status: 'onTestCaseResult', test, testCaseResult })
 	}
 
 	public onTestFileStart(test: Test) {
-		this.render({ status: 'testFileStart', test })
+		this.render({ status: 'onTestFileStart', test })
 	}
 
 	public getLastError() {
@@ -74,7 +74,7 @@ export default class SheetsReporter implements Reporter {
 	}
 
 	public onTestResult(test: Test, testResult: TestResult) {
-		this.render({ status: 'testResult', test, testResult })
+		this.render({ status: 'onTestResult', test, testResult })
 	}
 
 	private render(obj: Record<string, any>) {
@@ -84,6 +84,6 @@ export default class SheetsReporter implements Reporter {
 	}
 
 	public onTestStart(test: Test) {
-		this.render({ status: 'testStart', test })
+		this.render({ status: 'onTestStart', test })
 	}
 }
