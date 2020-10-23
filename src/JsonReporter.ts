@@ -69,7 +69,10 @@ export default class SheetsReporter implements Reporter {
 		this.render({ status: 'testFileStart', test })
 	}
 
-	public getLastError() { }
+	public getLastError() {
+		return undefined
+	}
+
 	public onTestResult(test: Test, testResult: TestResult) {
 		this.render({ status: 'testResult', test, testResult })
 	}
