@@ -1,3 +1,10 @@
+# [5.0.0](https://github.com/sprucelabsai/jest-json-reporter/compare/v4.0.0...v5.0.0) (2020-11-06)
+
+
+### Breaking Changes
+
+* revert pending because it's used outside of skip ([cf8be41](https://github.com/sprucelabsai/jest-json-reporter/commit/cf8be41))
+
 # [4.0.0](https://github.com/sprucelabsai/jest-json-reporter/compare/v3.0.1...v4.0.0) (2020-11-06)
 
 
