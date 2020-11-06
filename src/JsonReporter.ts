@@ -80,10 +80,7 @@ export default class SheetsReporter implements Reporter {
 
 	private render(obj: Record<string, any>) {
 		const toWrite = START_DIVIDER + JSON.stringify(obj) + END_DIVIDER + '\n'
-		fsUtil.appendFileSync(
-			'/Users/taylorromero/Desktop/test_results/results.txt',
-			toWrite
-		)
+		console.log(toWrite)
 	}
 
 	public onTestStart(test: Test) {
