@@ -1,3 +1,4 @@
+import fsUtil from 'fs'
 import {
 	AggregatedResult,
 	Context,
@@ -7,13 +8,7 @@ import {
 } from '@jest/reporters'
 
 export declare type Milliseconds = number
-declare type Status =
-	| 'passed'
-	| 'failed'
-	| 'skipped'
-	| 'pending'
-	| 'todo'
-	| 'disabled'
+declare type Status = 'passed' | 'failed' | 'skipped' | 'todo' | 'disabled'
 
 declare type CallSite = {
 	column: number
@@ -61,6 +56,7 @@ export default class SheetsReporter implements Reporter {
 		this.render({ status: 'onRunComplete', contexts, results })
 	}
 
+	//@ts-ignore - skipped tests come through as pending
 	public onTestCaseResult(test: Test, testCaseResult: AssertionResult) {
 		this.render({ status: 'onTestCaseResult', test, testCaseResult })
 	}
@@ -78,9 +74,11 @@ export default class SheetsReporter implements Reporter {
 	}
 
 	private render(obj: Record<string, any>) {
-		console.log(START_DIVIDER)
-		console.log(JSON.stringify(obj))
-		console.log(END_DIVIDER)
+		const toWrite = START_DIVIDER + JSON.stringify(obj) + END_DIVIDER + '\n'
+		fsUtil.appendFileSync(
+			'/Users/taylorromero/Desktop/test_results/results.txt',
+			toWrite
+		)
 	}
 
 	public onTestStart(test: Test) {
