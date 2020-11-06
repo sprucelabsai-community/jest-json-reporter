@@ -1,3 +1,10 @@
+# [5.1.0](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.0.0...v5.1.0) (2020-11-06)
+
+
+### Features
+
+* more exports ([21c4104](https://github.com/sprucelabsai/jest-json-reporter/commit/21c4104))
+
 # [5.0.0](https://github.com/sprucelabsai/jest-json-reporter/compare/v4.0.0...v5.0.0) (2020-11-06)
 
 
