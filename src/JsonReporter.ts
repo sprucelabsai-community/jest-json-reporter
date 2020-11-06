@@ -8,7 +8,13 @@ import {
 } from '@jest/reporters'
 
 export declare type Milliseconds = number
-declare type Status = 'passed' | 'failed' | 'skipped' | 'todo' | 'disabled'
+declare type Status =
+	| 'passed'
+	| 'failed'
+	| 'skipped'
+	| 'pending'
+	| 'todo'
+	| 'disabled'
 
 declare type CallSite = {
 	column: number
@@ -56,7 +62,6 @@ export default class SheetsReporter implements Reporter {
 		this.render({ status: 'onRunComplete', contexts, results })
 	}
 
-	//@ts-ignore - skipped tests come through as pending
 	public onTestCaseResult(test: Test, testCaseResult: AssertionResult) {
 		this.render({ status: 'onTestCaseResult', test, testCaseResult })
 	}
