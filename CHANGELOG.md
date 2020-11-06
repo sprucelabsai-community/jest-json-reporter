@@ -1,3 +1,10 @@
+# [4.0.0](https://github.com/sprucelabsai/jest-json-reporter/compare/v3.0.1...v4.0.0) (2020-11-06)
+
+
+### Breaking Changes
+
+* pending dropped in favor of skipped (since skipped tests come back as pending) ([2443737](https://github.com/sprucelabsai/jest-json-reporter/commit/2443737))
+
 ## [3.0.1](https://github.com/sprucelabsai/jest-json-reporter/compare/v3.0.0...v3.0.1) (2020-11-05)
 
 # [3.0.0](https://github.com/sprucelabsai/jest-json-reporter/compare/v2.0.0...v3.0.0) (2020-10-23)
