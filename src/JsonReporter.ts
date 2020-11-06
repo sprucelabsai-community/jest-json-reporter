@@ -8,7 +8,7 @@ import {
 } from '@jest/reporters'
 
 export declare type Milliseconds = number
-declare type Status =
+export declare type TestStatus =
 	| 'passed'
 	| 'failed'
 	| 'skipped'
@@ -30,7 +30,7 @@ export declare type AssertionResult = {
 	invocations?: number
 	location?: CallSite | null
 	numPassingAsserts: number
-	status: Status
+	status: TestStatus
 	title: string
 }
 

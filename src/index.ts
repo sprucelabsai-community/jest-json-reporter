@@ -1,1 +1,2 @@
-export { default, START_DIVIDER, END_DIVIDER } from './JsonReporter'
+export { default } from './JsonReporter'
+export * from './JsonReporter'
