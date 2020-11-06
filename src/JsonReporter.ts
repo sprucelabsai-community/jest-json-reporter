@@ -1,4 +1,3 @@
-import fsUtil from 'fs'
 import {
 	AggregatedResult,
 	Context,
