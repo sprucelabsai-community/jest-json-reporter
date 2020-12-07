@@ -36,7 +36,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@jest/reporters": "^26.6.0",
+    "@jest/reporters": "^27.0.0-next.1",
     "@sprucelabs/semantic-release": "^4.0.6",
     "@sprucelabs/test": "^7.2.0",
     "eslint": "^7.11.0",
