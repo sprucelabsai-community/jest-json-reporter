@@ -23,16 +23,16 @@
   "scripts": {
     "build": "yarn run clean && yarn run build.ts",
     "build.ts": "tsc",
-    "build.watch": "tsc -w",
     "clean": "rm -rf build/",
+    "fix.lint": "eslint --fix '**/*.ts'",
     "lint": "eslint '**/*.ts' && tsc -p . --noEmit && echo 'PASS'",
-    "lint.fix": "eslint --fix '**/*.ts'",
-    "test": "jest",
-    "test.watch": "jest --watch",
     "release": "semantic-release",
-    "upgrade.packages": "yarn-upgrade-all && rm -f yarn.lock ; yarn ; yarn lint.fix | true",
+    "test": "jest",
+    "upgrade.packages": "yarn-upgrade-all && rm -f yarn.lock ; yarn ; yarn fix.lint | true",
     "upgrade.packages.all": "yarn install && yarn upgrade.packages",
-    "upgrade.packages.test": "yarn upgrade.packages.all && yarn lint && yarn build && yarn test"
+    "upgrade.packages.test": "yarn upgrade.packages.all && yarn lint && yarn build && yarn test",
+    "watch.build": "tsc -w",
+    "watch.test": "jest --watch"
   },
   "dependencies": {},
   "devDependencies": {
