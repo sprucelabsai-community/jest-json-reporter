@@ -21,17 +21,18 @@
     "url": "https://github.com/sprucelabsai/jest-json-reporter/issues"
   },
   "scripts": {
-    "build": "yarn run clean && yarn run build.ts",
-    "build.ts": "tsc",
+    "build.dev": "yarn run clean && yarn run build.tsc",
+    "build.dist": "yarn run clean && yarn run build.tsc",
+    "build.tsc": "tsc",
     "clean": "rm -rf build/",
     "fix.lint": "eslint --fix '**/*.ts'",
     "lint": "eslint '**/*.ts' && tsc -p . --noEmit && echo 'PASS'",
     "release": "semantic-release",
     "test": "jest",
-    "upgrade.packages": "yarn-upgrade-all && rm -f yarn.lock ; yarn ; yarn fix.lint | true",
+    "upgrade.packages": "yarn-upgrade-all && rm -f yarn.lock ; yarn ; yarn fix.lint ; true",
     "upgrade.packages.all": "yarn install && yarn upgrade.packages",
-    "upgrade.packages.test": "yarn upgrade.packages.all && yarn lint && yarn build && yarn test",
-    "watch.build": "tsc -w",
+    "upgrade.packages.test": "yarn upgrade.packages.all && yarn lint && yarn build.dev && yarn test",
+    "watch.build.dev": "tsc -w",
     "watch.test": "jest --watch"
   },
   "dependencies": {},
