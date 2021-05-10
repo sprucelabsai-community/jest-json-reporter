@@ -17,6 +17,7 @@ export default class StringifyTest extends AbstractSpruceTest {
 		const lastLogged = reporter.render(obj)
 
 		const parsed = JSON.parse(
+			//@ts-ignore
 			lastLogged.replace(START_DIVIDER, '').replace(END_DIVIDER, '').trim()
 		)
 
