@@ -5,6 +5,7 @@ import {
 	Test,
 	TestResult,
 } from '@jest/reporters'
+import { cycle } from './cycle'
 
 export declare type Milliseconds = number
 export declare type TestStatus =
@@ -39,7 +40,7 @@ export const START_DIVIDER =
 export const END_DIVIDER =
 	'***************************END_JSON_DIVIDER***************************'
 
-export default class SheetsReporter implements Reporter {
+export default class JsonReporter implements Reporter {
 	public onTestFileResult(
 		test: Test,
 		testResult: TestResult,
@@ -78,7 +79,8 @@ export default class SheetsReporter implements Reporter {
 	}
 
 	private render(obj: Record<string, any>) {
-		const toWrite = START_DIVIDER + JSON.stringify(obj) + END_DIVIDER + '\n'
+		const string = cycle(obj)
+		const toWrite = START_DIVIDER + JSON.stringify(string) + END_DIVIDER + '\n'
 		console.log(toWrite)
 	}
 
