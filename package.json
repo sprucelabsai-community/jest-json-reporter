@@ -6,7 +6,7 @@
   "files": [
     "build"
   ],
-  "version": "5.1.24",
+  "version": "5.1.25",
   "main": "./build/JsonReporter.js",
   "types": "./build/JsonReporter.d.ts",
   "description": "Stream Jest results to stdout in JSON for ingestion by parent processes.",
@@ -24,8 +24,8 @@
     "build.dev": "yarn run clean && yarn run build.tsc",
     "build.dist": "yarn run clean && yarn run build.tsc",
     "build.tsc": "tsc",
-		"clean": "rm -rf build/",
-		"clean.all": "rm -rf node_modules/ yarn.lock ; yarn clean",
+    "clean": "rm -rf build/",
+    "clean.all": "rm -rf node_modules/ yarn.lock ; yarn clean",
     "fix.lint": "eslint --fix '**/*.ts'",
     "lint": "eslint '**/*.ts' && tsc -p . --noEmit && echo 'PASS'",
     "rebuild": "yarn clean.all && yarn && yarn build.dev",
