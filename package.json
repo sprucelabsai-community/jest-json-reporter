@@ -6,7 +6,7 @@
   "files": [
     "build"
   ],
-  "version": "5.1.4",
+  "version": "5.1.23",
   "main": "./build/JsonReporter.js",
   "types": "./build/JsonReporter.d.ts",
   "description": "Stream Jest results to stdout in JSON for ingestion by parent processes.",
@@ -21,29 +21,31 @@
     "url": "https://github.com/sprucelabsai/jest-json-reporter/issues"
   },
   "scripts": {
-    "build": "yarn run clean && yarn run build.ts",
-    "build.ts": "tsc",
-    "build.watch": "tsc -w",
+    "build.dev": "yarn run clean && yarn run build.tsc",
+    "build.dist": "yarn run clean && yarn run build.tsc",
+    "build.tsc": "tsc",
     "clean": "rm -rf build/",
+    "fix.lint": "eslint --fix '**/*.ts'",
     "lint": "eslint '**/*.ts' && tsc -p . --noEmit && echo 'PASS'",
-    "lint.fix": "eslint --fix '**/*.ts'",
-    "test": "jest",
-    "test.watch": "jest --watch",
     "release": "semantic-release",
-    "upgrade.packages": "yarn upgrade --latest && rm yarn.lock | true && yarn | true && yarn lint.fix | true",
+    "test": "jest",
+    "upgrade.packages": "yarn-upgrade-all && rm -f yarn.lock ; yarn ; yarn fix.lint ; true",
     "upgrade.packages.all": "yarn install && yarn upgrade.packages",
-    "upgrade.packages.test": "yarn upgrade.base && yarn lint && yarn build && yarn test"
+    "upgrade.packages.test": "yarn upgrade.packages.all && yarn lint && yarn build.dev && yarn test",
+    "watch.build.dev": "tsc -w",
+    "watch.test": "jest --watch"
   },
   "dependencies": {},
   "devDependencies": {
-    "@jest/reporters": "^27.0.0-next.1",
-    "@sprucelabs/semantic-release": "^4.0.6",
+    "@jest/reporters": "^26.6.2",
+    "@sprucelabs/semantic-release": "latest",
     "@sprucelabs/test": "latest",
-    "eslint": "^7.11.0",
-    "eslint-config-spruce": "^10.9.91",
-    "jest": "^26.5.2",
-    "prettier": "^2.1.2",
-    "typescript": "^4.0.2"
+    "eslint": "^7.26.0",
+    "eslint-config-spruce": "latest",
+    "jest": "^26.6.3",
+    "prettier": "^2.3.0",
+    "typescript": "^4.2.4",
+    "yarn-upgrade-all": "^0.5.4"
   },
   "jest": {
     "maxWorkers": 4,
@@ -65,7 +67,9 @@
   },
   "yarn-upgrade-all": {
     "ignore": [
-      "@sprucelabs/test"
+      "@sprucelabs/semantic-release",
+      "@sprucelabs/test",
+      "eslint-config-spruce"
     ]
   }
 }

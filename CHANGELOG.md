@@ -1,3 +1,41 @@
+## [5.1.23](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.22...v5.1.23) (2021-05-09)
+
+## [5.1.22](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.21...v5.1.22) (2021-05-08)
+
+## [5.1.21](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.20...v5.1.21) (2021-04-23)
+
+## [5.1.20](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.19...v5.1.20) (2021-04-09)
+
+## [5.1.19](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.18...v5.1.19) (2021-04-07)
+
+## [5.1.18](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.17...v5.1.18) (2021-03-26)
+
+## [5.1.17](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.16...v5.1.17) (2021-03-12)
+
+## [5.1.16](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.15...v5.1.16) (2021-03-04)
+
+## [5.1.15](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.14...v5.1.15) (2021-03-03)
+
+## [5.1.14](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.13...v5.1.14) (2021-02-27)
+
+## [5.1.13](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.12...v5.1.13) (2021-02-23)
+
+## [5.1.12](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.11...v5.1.12) (2021-02-12)
+
+## [5.1.11](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.10...v5.1.11) (2021-02-10)
+
+## [5.1.10](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.9...v5.1.10) (2021-02-09)
+
+## [5.1.9](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.8...v5.1.9) (2021-01-31)
+
+## [5.1.8](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.7...v5.1.8) (2021-01-26)
+
+## [5.1.7](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.6...v5.1.7) (2021-01-20)
+
+## [5.1.6](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.5...v5.1.6) (2021-01-20)
+
+## [5.1.5](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.4...v5.1.5) (2021-01-20)
+
 ## [5.1.4](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.3...v5.1.4) (2020-12-31)
 
 ## [5.1.3](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.2...v5.1.3) (2020-12-07)
