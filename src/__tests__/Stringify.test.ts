@@ -1,15 +1,16 @@
 import AbstractSpruceTest, { assert, test } from '@sprucelabs/test'
+import { retrocycle } from '../cycle'
 import JsonReporter, { END_DIVIDER, START_DIVIDER } from '../JsonReporter'
 
 export default class StringifyTest extends AbstractSpruceTest {
-	@test.skip()
+	@test()
 	protected static canStringifyRecursive() {
 		let obj: Record<string, any> = {
 			go: 'team',
 			around: true,
 		}
 
-		obj.rescursive = obj
+		obj.recursive = obj
 
 		const reporter = new JsonReporter()
 
@@ -24,7 +25,14 @@ export default class StringifyTest extends AbstractSpruceTest {
 		assert.isEqualDeep(parsed, {
 			go: 'team',
 			around: true,
-			rescursive: { $ref: '$' },
+			recursive: { $ref: '$' },
 		})
+
+		const uncycled = retrocycle(parsed)
+
+		console.log(uncycled)
+		assert.isEqual(uncycled.go, 'team')
+		assert.isEqual(uncycled.around, true)
+		assert.isTruthy(uncycled.recursive)
 	}
 }

@@ -82,6 +82,7 @@ export default class JsonReporter implements Reporter {
 		const string = cycle(obj)
 		const toWrite = START_DIVIDER + JSON.stringify(string) + END_DIVIDER + '\n'
 		console.log(toWrite)
+		return toWrite
 	}
 
 	public onTestStart(test: Test) {
