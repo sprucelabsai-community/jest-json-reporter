@@ -30,7 +30,6 @@ export default class StringifyTest extends AbstractSpruceTest {
 
 		const uncycled = retrocycle(parsed)
 
-		console.log(uncycled)
 		assert.isEqual(uncycled.go, 'team')
 		assert.isEqual(uncycled.around, true)
 		assert.isTruthy(uncycled.recursive)
