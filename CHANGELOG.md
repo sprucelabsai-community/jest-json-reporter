@@ -1,3 +1,10 @@
+# [6.0.0](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.26...v6.0.0) (2021-05-11)
+
+
+### Breaking Changes
+
+* recursive ([d4c105f](https://github.com/sprucelabsai/jest-json-reporter/commit/d4c105f))
+
 ## [5.1.26](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.25...v5.1.26) (2021-05-10)
 
 ## [5.1.25](https://github.com/sprucelabsai/jest-json-reporter/compare/v5.1.24...v5.1.25) (2021-05-10)
