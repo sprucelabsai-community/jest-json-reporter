@@ -89,3 +89,5 @@ export default class JsonReporter implements Reporter {
 		this.render({ status: 'onTestStart', test })
 	}
 }
+
+export * from './cycle'
