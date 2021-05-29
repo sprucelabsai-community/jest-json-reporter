@@ -44,7 +44,7 @@
     "@sprucelabs/test": "latest",
     "eslint": "^7.27.0",
     "eslint-config-spruce": "latest",
-    "jest": "^27.0.2",
+    "jest": "^27.0.3",
     "prettier": "^2.3.0",
     "typescript": "^4.3.2",
     "yarn-upgrade-all": "^0.5.4"
