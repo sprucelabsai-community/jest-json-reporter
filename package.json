@@ -39,12 +39,12 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@jest/reporters": "^27.0.1",
+    "@jest/reporters": "^27.0.2",
     "@sprucelabs/semantic-release": "latest",
     "@sprucelabs/test": "latest",
     "eslint": "^7.27.0",
     "eslint-config-spruce": "latest",
-    "jest": "^27.0.1",
+    "jest": "^27.0.2",
     "prettier": "^2.3.0",
     "typescript": "^4.3.2",
     "yarn-upgrade-all": "^0.5.4"
