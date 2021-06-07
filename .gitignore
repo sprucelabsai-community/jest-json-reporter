@@ -18,3 +18,4 @@ build/
 
 yarn.lock
 .env
+.eslintcache

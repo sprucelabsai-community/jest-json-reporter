@@ -4,4 +4,14 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
 	},
+	"eslint.options": {
+		"extensions": [
+			".js",
+			".jsx",
+			".ts",
+			".tsx"
+		],
+		"cache": true
+	},
+	"eslint.lintTask.options": "--cache",
 }

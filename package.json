@@ -27,7 +27,7 @@
     "clean": "rm -rf build/",
     "clean.all": "rm -rf node_modules/ yarn.lock ; yarn clean",
     "fix.lint": "eslint --fix '**/*.ts'",
-    "lint": "eslint '**/*.ts' && tsc -p . --noEmit && echo 'PASS'",
+    "lint": "eslint --cache '**/*.ts' && tsc -p . --noEmit && echo 'PASS'",
     "rebuild": "yarn clean.all && yarn && yarn build.dev",
     "release": "semantic-release",
     "test": "jest",
