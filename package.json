@@ -21,8 +21,9 @@
     "url": "https://github.com/sprucelabsai/jest-json-reporter/issues"
   },
   "scripts": {
+    "build.ci": "yarn run build.tsc",
     "build.dev": "yarn run clean && yarn run build.tsc",
-    "build.dist": "yarn run clean && yarn run build.tsc",
+    "build.dist": "yarn run build.tsc",
     "build.tsc": "tsc",
     "clean": "rm -rf build/",
     "clean.all": "rm -rf node_modules/ yarn.lock ; yarn clean",
