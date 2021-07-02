@@ -46,7 +46,7 @@
     "@jest/reporters": "^27.0.6",
     "@sprucelabs/semantic-release": "latest",
     "@sprucelabs/test": "latest",
-    "eslint": "^7.29.0",
+    "eslint": "^7.30.0",
     "eslint-config-spruce": "latest",
     "jest": "^27.0.6",
     "prettier": "^2.3.2",
