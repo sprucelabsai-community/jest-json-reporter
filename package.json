@@ -22,7 +22,7 @@
   },
   "scripts": {
     "build.ci": "yarn run build.tsc",
-    "build.dev": "yarn run clean && yarn run build.tsc",
+    "build.dev": "yarn run clean && yarn run build.tsc --sourceMap",
     "build.dist": "yarn run build.tsc",
     "build.tsc": "tsc",
     "clean": "yarn clean.build",
@@ -38,7 +38,7 @@
     "upgrade.packages": "yarn-upgrade-all && rm -f yarn.lock ; yarn ; yarn fix.lint ; true",
     "upgrade.packages.all": "yarn install && yarn upgrade.packages",
     "upgrade.packages.test": "yarn upgrade.packages.all && yarn lint && yarn build.dev && yarn test",
-    "watch.build.dev": "tsc -w",
+    "watch.build.dev": "tsc -w --sourceMap",
     "watch.test": "jest --watch"
   },
   "dependencies": {},
