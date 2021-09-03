@@ -21,6 +21,7 @@
     "url": "https://github.com/sprucelabsai/jest-json-reporter/issues"
   },
   "scripts": {
+    "preinstall": "git config core.hooksPath .githooks",
     "build.ci": "yarn run build.tsc",
     "build.dev": "yarn run clean && yarn run build.tsc --sourceMap",
     "build.dist": "yarn run build.tsc",
