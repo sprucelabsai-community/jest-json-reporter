@@ -1,0 +1,8 @@
+{
+  "scriptUpdater": {
+    "skipped": [
+      "build.ci",
+      "build.dev"
+    ]
+  }
+}

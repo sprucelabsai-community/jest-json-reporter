@@ -4,7 +4,7 @@ orbs:
 jobs:
   test:
     docker:
-      - image: circleci/node:12
+      - image: circleci/node:16
     steps:
       - add_ssh_keys:
           fingerprints:
@@ -39,7 +39,7 @@ jobs:
             git push origin
   npm_publish:
     docker:
-      - image: circleci/node:12
+      - image: circleci/node:16
     steps:
       - add_ssh_keys:
           fingerprints:
@@ -60,7 +60,7 @@ jobs:
       - run: yarn run release
   upgrade:
     docker:
-      - image: circleci/node:12
+      - image: circleci/node:16
     steps:
       - add_ssh_keys:
           fingerprints:
@@ -73,20 +73,30 @@ jobs:
             TARGETBRANCH=upgrade-$(date '+%Y-%m-%d')
             echo "export TARGETBRANCH=$TARGETBRANCH" >> $BASH_ENV
       - run:
+          name: "Install Spruce CLI"
+          command: |
+            yarn global add @sprucelabs/spruce-cli
+      - run:
           name: "Try to upgrade"
           command: |
             git checkout -b $TARGETBRANCH || git checkout $TARGETBRANCH
             git reset --hard master
             git config --global user.email "$GIT_AUTHOR_EMAIL"
             git config --global user.name "$GIT_AUTHOR_NAME"
-            yarn run upgrade.packages.all
+            ~/.yarn/bin/spruce upgrade
             if [[ $(git status) != *"modified"* ]]; then 
               echo "No modifications detected.  No push/PR necessary 👊"
               circleci-agent step halt
             fi
-            if [[ ! -f yarn.lock  ]]; then
-              echo "Upgrade errored and removed the yarn.lock. Likely due to a package version missing"
-              circleci-agent step halt
+      - run:
+          name: "Check for only newline diff"
+          command: |
+            if [[ $(git status --porcelain | awk '{print $2}' | wc -l) -eq 1 ]]; then
+              if [[ $(git status --porcelain | awk '{print $2}' | grep package.json | wc -l ) -eq 1 ]]; then
+                if [[ $(git diff -w package.json | wc -l) -eq 0 ]]; then
+                  circleci-agent step halt
+                fi
+              fi
             fi
       - run:
           name: "Create PR"
@@ -95,7 +105,7 @@ jobs:
             git push --force origin $TARGETBRANCH
             git push --set-upstream origin $TARGETBRANCH
             echo "$(hub pull-request --base master --head $TARGETBRANCH -m 'Automated Package Upgrade' 2>&1)" |egrep "/pull/|already exists"
-workflows:
+            workflows:
   version: 2.1
   do_build:
     jobs:

@@ -24,13 +24,13 @@
     "build.ci": "yarn run build.tsc",
     "build.dev": "yarn run clean && yarn run build.tsc --sourceMap",
     "build.dist": "yarn run build.tsc",
-    "build.tsc": "tsc",
+    "build.tsc": "yarn build.copy-files && tsc",
     "clean": "yarn clean.build",
     "clean.all": "yarn clean.dependencies && yarn clean.build",
     "clean.build": "rm -rf build/",
     "clean.dependencies": "rm -rf node_modules/ package-lock.json yarn.lock",
-    "fix.lint": "eslint --fix '**/*.ts'",
-    "lint": "eslint --cache '**/*.ts' && tsc -p . --noEmit && echo 'PASS'",
+    "fix.lint": "eslint --fix --cache '**/*.ts'",
+    "lint": "eslint --cache '**/*.ts'",
     "rebuild": "yarn clean.all && yarn && yarn build.dev",
     "release": "semantic-release",
     "test": "jest",
@@ -38,20 +38,32 @@
     "upgrade.packages": "yarn-upgrade-all && rm -f yarn.lock ; yarn ; yarn fix.lint ; true",
     "upgrade.packages.all": "yarn install && yarn upgrade.packages",
     "upgrade.packages.test": "yarn upgrade.packages.all && yarn lint && yarn build.dev && yarn test",
-    "watch.build.dev": "tsc -w --sourceMap",
-    "watch.test": "jest --watch"
+    "watch.build.dev": "tsc-watch --sourceMap --onCompilationComplete 'yarn post.watch.build'",
+    "watch.test": "jest --watch",
+    "build.copy-files": "mkdir -p build && rsync -avzq --exclude='*.ts' ./src/ ./build/",
+    "build.resolve-paths": "resolve-path-aliases --target build --patterns '**/*.js,**/*.d.ts'",
+    "lint.tsc": "tsc -p . --noEmit",
+    "post.watch.build": "yarn build.copy-files && yarn build.resolve-paths",
+    "resolve-paths.lint": "yarn build.resolve-paths ; yarn lint",
+    "watch.lint": "concurrently 'yarn lint' \"chokidar 'src/**/*' -c 'yarn lint.tsc'\"",
+    "watch.rebuild": "yarn clean.all && yarn && yarn watch.build.dev",
+    "watch.tsc": "tsc -w"
   },
   "dependencies": {},
   "devDependencies": {
     "@jest/reporters": "^27.2.0",
-    "@sprucelabs/semantic-release": "latest",
-    "@sprucelabs/test": "latest",
+    "@sprucelabs/resolve-path-aliases": "^1.0.74",
+    "@sprucelabs/semantic-release": "^4.0.6",
+    "@sprucelabs/test": "^7.7.60",
+    "@types/node": "^16.9.1",
+    "chokidar-cli": "^3.0.0",
+    "concurrently": "^6.2.1",
     "eslint": "^7.32.0",
-    "eslint-config-spruce": "latest",
+    "eslint-config-spruce": "^10.10.10",
     "jest": "^27.2.0",
     "prettier": "^2.4.0",
-    "typescript": "^4.4.3",
-    "yarn-upgrade-all": "^0.5.4"
+    "tsc-watch": "^4.5.0",
+    "typescript": "^4.4.3"
   },
   "jest": {
     "maxWorkers": 4,
@@ -70,12 +82,5 @@
       "^#spruce/schemas/fields/(.*)": "<rootDir>/node_modules/@sprucelabs/schema/build/.spruce/schemas/fields/$1",
       "^#spruce/(.*)$": "<rootDir>/build/.spruce/$1"
     }
-  },
-  "yarn-upgrade-all": {
-    "ignore": [
-      "@sprucelabs/semantic-release",
-      "@sprucelabs/test",
-      "eslint-config-spruce"
-    ]
   }
 }
