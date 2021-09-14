@@ -18,6 +18,7 @@ jobs:
               echo "[npm-publish] detected. No publish necessary 👊"
               circleci-agent step halt
             fi
+      - run: which rsync || ( sudo apt-get update -y && sudo apt-get install rsync -y )
       - run: yarn install
       - run: yarn lint
       - run: yarn build.ci
@@ -53,6 +54,7 @@ jobs:
               echo "[npm-publish] detected. No publish necessary 👊"
               circleci-agent step halt
             fi
+      - run: which rsync || ( sudo apt-get update -y && sudo apt-get install rsync -y )
       - run: yarn install
       - run: yarn run build.dist
       - run: git config --global user.email "$GIT_AUTHOR_EMAIL"
