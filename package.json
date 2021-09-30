@@ -6,7 +6,7 @@
   "files": [
     "build"
   ],
-  "version": "6.0.87",
+  "version": "6.0.88",
   "main": "./build/JsonReporter.js",
   "types": "./build/JsonReporter.d.ts",
   "description": "Stream Jest results to stdout in JSON for ingestion by parent processes.",
