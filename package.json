@@ -52,9 +52,9 @@
   "dependencies": {},
   "devDependencies": {
     "@jest/reporters": "^27.2.4",
-    "@sprucelabs/resolve-path-aliases": "^1.0.156",
+    "@sprucelabs/resolve-path-aliases": "^1.0.157",
     "@sprucelabs/semantic-release": "^4.0.7",
-    "@sprucelabs/test": "^7.7.135",
+    "@sprucelabs/test": "^7.7.136",
     "@types/node": "^16.10.2",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^6.3.0",
