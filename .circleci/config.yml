@@ -74,6 +74,7 @@ jobs:
           command: |
             TARGETBRANCH=upgrade-$(date '+%Y-%m-%d')
             echo "export TARGETBRANCH=$TARGETBRANCH" >> $BASH_ENV
+      - run: which rsync || ( sudo apt-get update -y && sudo apt-get install rsync -y )
       - run:
           name: "Install Spruce CLI"
           command: |
