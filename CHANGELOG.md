@@ -1,3 +1,189 @@
+## [6.0.211](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.210...v6.0.211) (2021-10-19)
+
+## [6.0.210](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.209...v6.0.210) (2021-10-17)
+
+## [6.0.209](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.208...v6.0.209) (2021-10-17)
+
+## [6.0.208](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.207...v6.0.208) (2021-10-17)
+
+## [6.0.207](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.206...v6.0.207) (2021-10-16)
+
+## [6.0.206](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.205...v6.0.206) (2021-10-14)
+
+## [6.0.205](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.204...v6.0.205) (2021-10-14)
+
+## [6.0.204](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.203...v6.0.204) (2021-10-14)
+
+## [6.0.203](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.202...v6.0.203) (2021-10-13)
+
+## [6.0.202](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.201...v6.0.202) (2021-10-13)
+
+## [6.0.201](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.200...v6.0.201) (2021-10-13)
+
+## [6.0.200](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.199...v6.0.200) (2021-10-13)
+
+## [6.0.199](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.198...v6.0.199) (2021-10-13)
+
+## [6.0.198](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.197...v6.0.198) (2021-10-12)
+
+## [6.0.197](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.196...v6.0.197) (2021-10-12)
+
+## [6.0.196](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.195...v6.0.196) (2021-10-12)
+
+## [6.0.195](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.194...v6.0.195) (2021-10-12)
+
+## [6.0.194](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.193...v6.0.194) (2021-10-12)
+
+## [6.0.193](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.192...v6.0.193) (2021-10-12)
+
+## [6.0.192](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.191...v6.0.192) (2021-10-08)
+
+## [6.0.191](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.190...v6.0.191) (2021-10-08)
+
+## [6.0.190](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.189...v6.0.190) (2021-10-08)
+
+## [6.0.189](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.188...v6.0.189) (2021-10-05)
+
+## [6.0.188](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.187...v6.0.188) (2021-10-05)
+
+## [6.0.187](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.186...v6.0.187) (2021-10-04)
+
+## [6.0.186](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.185...v6.0.186) (2021-10-04)
+
+## [6.0.185](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.184...v6.0.185) (2021-10-04)
+
+## [6.0.184](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.183...v6.0.184) (2021-10-04)
+
+## [6.0.183](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.182...v6.0.183) (2021-10-04)
+
+## [6.0.182](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.181...v6.0.182) (2021-10-04)
+
+## [6.0.181](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.180...v6.0.181) (2021-10-04)
+
+## [6.0.180](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.179...v6.0.180) (2021-10-04)
+
+## [6.0.179](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.178...v6.0.179) (2021-10-04)
+
+## [6.0.178](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.177...v6.0.178) (2021-10-04)
+
+## [6.0.177](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.176...v6.0.177) (2021-10-04)
+
+## [6.0.176](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.175...v6.0.176) (2021-10-04)
+
+## [6.0.175](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.174...v6.0.175) (2021-10-04)
+
+## [6.0.174](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.173...v6.0.174) (2021-10-03)
+
+## [6.0.173](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.172...v6.0.173) (2021-10-03)
+
+## [6.0.172](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.171...v6.0.172) (2021-10-03)
+
+## [6.0.171](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.170...v6.0.171) (2021-10-03)
+
+## [6.0.170](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.169...v6.0.170) (2021-10-03)
+
+## [6.0.169](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.168...v6.0.169) (2021-10-03)
+
+## [6.0.168](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.167...v6.0.168) (2021-10-03)
+
+## [6.0.167](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.166...v6.0.167) (2021-10-03)
+
+## [6.0.166](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.165...v6.0.166) (2021-10-03)
+
+## [6.0.165](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.164...v6.0.165) (2021-10-03)
+
+## [6.0.164](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.163...v6.0.164) (2021-10-03)
+
+## [6.0.163](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.162...v6.0.163) (2021-10-03)
+
+## [6.0.162](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.161...v6.0.162) (2021-10-03)
+
+## [6.0.161](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.160...v6.0.161) (2021-10-03)
+
+## [6.0.160](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.159...v6.0.160) (2021-10-03)
+
+## [6.0.159](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.158...v6.0.159) (2021-10-03)
+
+## [6.0.158](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.157...v6.0.158) (2021-10-03)
+
+## [6.0.157](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.156...v6.0.157) (2021-10-03)
+
+## [6.0.156](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.155...v6.0.156) (2021-10-03)
+
+## [6.0.155](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.154...v6.0.155) (2021-10-03)
+
+## [6.0.154](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.153...v6.0.154) (2021-10-03)
+
+## [6.0.153](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.152...v6.0.153) (2021-10-03)
+
+## [6.0.152](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.151...v6.0.152) (2021-10-03)
+
+## [6.0.151](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.150...v6.0.151) (2021-10-03)
+
+## [6.0.150](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.149...v6.0.150) (2021-10-02)
+
+## [6.0.149](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.148...v6.0.149) (2021-10-02)
+
+## [6.0.148](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.147...v6.0.148) (2021-10-02)
+
+## [6.0.147](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.146...v6.0.147) (2021-10-02)
+
+## [6.0.146](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.145...v6.0.146) (2021-10-02)
+
+## [6.0.145](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.144...v6.0.145) (2021-10-02)
+
+## [6.0.144](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.143...v6.0.144) (2021-10-02)
+
+## [6.0.143](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.142...v6.0.143) (2021-10-02)
+
+## [6.0.142](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.141...v6.0.142) (2021-10-02)
+
+## [6.0.141](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.140...v6.0.141) (2021-10-02)
+
+## [6.0.140](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.139...v6.0.140) (2021-10-02)
+
+## [6.0.139](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.138...v6.0.139) (2021-10-02)
+
+## [6.0.138](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.137...v6.0.138) (2021-10-02)
+
+## [6.0.137](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.136...v6.0.137) (2021-10-02)
+
+## [6.0.136](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.135...v6.0.136) (2021-10-02)
+
+## [6.0.135](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.134...v6.0.135) (2021-10-02)
+
+## [6.0.134](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.133...v6.0.134) (2021-10-02)
+
+## [6.0.133](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.132...v6.0.133) (2021-10-02)
+
+## [6.0.132](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.131...v6.0.132) (2021-10-02)
+
+## [6.0.131](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.130...v6.0.131) (2021-10-02)
+
+## [6.0.130](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.129...v6.0.130) (2021-10-02)
+
+## [6.0.129](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.128...v6.0.129) (2021-10-02)
+
+## [6.0.128](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.127...v6.0.128) (2021-10-02)
+
+## [6.0.127](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.126...v6.0.127) (2021-10-02)
+
+## [6.0.126](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.125...v6.0.126) (2021-10-01)
+
+## [6.0.125](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.124...v6.0.125) (2021-10-01)
+
+## [6.0.124](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.123...v6.0.124) (2021-10-01)
+
+## [6.0.123](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.122...v6.0.123) (2021-10-01)
+
+## [6.0.122](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.121...v6.0.122) (2021-10-01)
+
+## [6.0.121](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.120...v6.0.121) (2021-10-01)
+
+## [6.0.120](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.119...v6.0.120) (2021-10-01)
+
+## [6.0.119](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.118...v6.0.119) (2021-10-01)
+
 ## [6.0.118](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.117...v6.0.118) (2021-10-01)
 
 ## [6.0.117](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.116...v6.0.117) (2021-10-01)
