@@ -54,7 +54,7 @@
     "@jest/reporters": "^27.3.1",
     "@sprucelabs/resolve-path-aliases": "^1.0.224",
     "@sprucelabs/semantic-release": "^4.0.8",
-    "@sprucelabs/test": "^7.7.221",
+    "@sprucelabs/test": "^7.7.222",
     "@types/node": "^16.11.7",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^6.4.0",
@@ -65,7 +65,7 @@
     "ts-node": "^10.4.0",
     "tsc-watch": "^4.5.0",
     "tsconfig-paths": "^3.11.0",
-    "typescript": "^4.4.4"
+    "typescript": "^4.5.2"
   },
   "jest": {
     "maxWorkers": 4,
