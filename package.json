@@ -52,7 +52,7 @@
   "dependencies": {},
   "devDependencies": {
     "@jest/reporters": "^27.3.1",
-    "@sprucelabs/resolve-path-aliases": "^1.0.228",
+    "@sprucelabs/resolve-path-aliases": "^1.0.229",
     "@sprucelabs/semantic-release": "^4.0.8",
     "@sprucelabs/test": "^7.7.233",
     "@types/node": "^16.11.10",
