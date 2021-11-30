@@ -3,9 +3,14 @@
 		"module": "commonjs",
 		"esModuleInterop": true,
 		"target": "ES2017",
-		"lib": ["ES2017", "DOM"],
+		"lib": [
+			"DOM",
+			"es2017",
+			"ES2020"
+		],
 		"declaration": true,
 		"noImplicitAny": true,
+		"allowJs": true,
 		"forceConsistentCasingInFileNames": true,
 		"noImplicitReturns": true,
 		"strict": true,
@@ -16,8 +21,18 @@
 		"outDir": "build",
 		"baseUrl": "src",
 		"experimentalDecorators": true,
-		"skipLibCheck": true
+		"paths": {
+			"#spruce/*": [
+				".spruce/*"
+			]
+		}
 	},
-	"include": ["./*.ts", "./**/*.ts"],
-	"exclude": ["**/node_modules/*", "build/*"]
+	"include": [
+		"./src/*.ts",
+		"./src/**/*.ts",
+		"./src/.spruce/**/*"
+	],
+	"exclude": [
+		"build"
+	]
 }
