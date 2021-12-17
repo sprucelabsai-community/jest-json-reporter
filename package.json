@@ -10,7 +10,7 @@
   "skill": {
     "namespace": "jest-json-reporter",
     "upgradeIgnoreList": [
-      "@sprucelabs/spruce-test",
+      "@sprucelabs/spruce-test"
     ]
   },
   "main": "./build/JsonReporter.js",
