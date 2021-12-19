@@ -64,7 +64,7 @@
     "@sprucelabs/test": "^7.7.264",
     "@types/node": "^17.0.0",
     "chokidar-cli": "^3.0.0",
-    "concurrently": "^6.5.0",
+    "concurrently": "^6.5.1",
     "eslint": "^8.5.0",
     "eslint-config-spruce": "^10.11.0",
     "jest": "^27.4.5",
