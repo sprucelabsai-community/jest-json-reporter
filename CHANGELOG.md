@@ -1,3 +1,5 @@
+## [6.0.317](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.316...v6.0.317) (2022-02-01)
+
 ## [6.0.316](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.315...v6.0.316) (2022-01-28)
 
 ## [6.0.315](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.314...v6.0.315) (2022-01-27)
