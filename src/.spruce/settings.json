@@ -4,5 +4,10 @@
       "build.ci",
       "build.dev"
     ]
+  },
+  "writer": {
+    "skipped": [
+      "tsconfig.json"
+    ]
   }
 }
