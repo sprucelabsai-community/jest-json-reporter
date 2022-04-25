@@ -1,6 +1,6 @@
 import {
 	AggregatedResult,
-	Context,
+	TestContext,
 	Reporter,
 	Test,
 	TestResult,
@@ -58,7 +58,7 @@ export default class JsonReporter implements Reporter {
 		this.render({ status: 'onRunStart', results })
 	}
 
-	public onRunComplete(contexts: Set<Context>, results: AggregatedResult) {
+	public onRunComplete(contexts: Set<TestContext>, results: AggregatedResult) {
 		this.render({ status: 'onRunComplete', contexts, results })
 	}
 
