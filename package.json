@@ -58,7 +58,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@jest/reporters": "^28.0.3",
+    "@jest/reporters": "^28.1.0",
     "@sprucelabs/resolve-path-aliases": "^1.0.244",
     "@sprucelabs/semantic-release": "^4.0.8",
     "@sprucelabs/test": "^7.7.311",
@@ -67,7 +67,7 @@
     "concurrently": "^7.1.0",
     "eslint": "^8.14.0",
     "eslint-config-spruce": "^10.11.2",
-    "jest": "^28.0.3",
+    "jest": "^28.1.0",
     "prettier": "^2.6.2",
     "ts-node": "^10.7.0",
     "tsc-watch": "^5.0.3",
