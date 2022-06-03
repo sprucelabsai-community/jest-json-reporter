@@ -61,7 +61,7 @@
     "@jest/reporters": "^28.1.0",
     "@sprucelabs/resolve-path-aliases": "^1.0.244",
     "@sprucelabs/semantic-release": "^4.0.8",
-    "@sprucelabs/test": "^7.7.320",
+    "@sprucelabs/test": "^7.7.321",
     "@types/node": "^17.0.39",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^7.2.1",
@@ -69,10 +69,10 @@
     "eslint-config-spruce": "^10.11.2",
     "jest": "^28.1.0",
     "prettier": "^2.6.2",
-    "ts-node": "^10.8.0",
+    "ts-node": "^10.8.1",
     "tsc-watch": "^5.0.3",
     "tsconfig-paths": "^4.0.0",
-    "typescript": "^4.7.2"
+    "typescript": "^4.7.3"
   },
   "jest": {
     "maxWorkers": 4,
