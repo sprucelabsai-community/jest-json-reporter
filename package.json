@@ -11,8 +11,7 @@
     "namespace": "jest-json-reporter",
     "upgradeIgnoreList": [
       "@sprucelabs/spruce-test",
-      "@sprucelabs/resolve-path-aliases",
-      "typescript"
+      "@sprucelabs/resolve-path-aliases"
     ]
   },
   "main": "./build/JsonReporter.js",
