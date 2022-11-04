@@ -61,7 +61,7 @@
     "@jest/reporters": "^29.2.2",
     "@sprucelabs/resolve-path-aliases": "^1.0.244",
     "@sprucelabs/semantic-release": "^4.0.8",
-    "@sprucelabs/test": "^7.7.378",
+    "@sprucelabs/test": "^7.7.379",
     "@types/node": "^18.11.9",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^7.5.0",
