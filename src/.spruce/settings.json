@@ -7,7 +7,8 @@
   },
   "writer": {
     "skipped": [
-      "tsconfig.json"
+      "tsconfig.json",
+      ".nvmrc"
     ]
   }
 }
