@@ -6,7 +6,7 @@
   "files": [
     "build"
   ],
-  "version": "6.0.546",
+  "version": "6.0.547",
   "skill": {
     "namespace": "jest-json-reporter",
     "upgradeIgnoreList": [
