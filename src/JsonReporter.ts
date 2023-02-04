@@ -15,6 +15,7 @@ export declare type TestStatus =
 	| 'pending'
 	| 'todo'
 	| 'disabled'
+	| 'focused'
 
 declare type CallSite = {
 	column: number
