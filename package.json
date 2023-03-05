@@ -71,7 +71,7 @@
     "prettier": "^2.8.4",
     "ts-node": "^10.9.1",
     "tsc-watch": "^6.0.0",
-    "tsconfig-paths": "^3.14.2",
+    "tsconfig-paths": "^4.1.2",
     "typescript": "^4.9.5"
   },
   "jest": {
