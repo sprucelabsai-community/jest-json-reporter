@@ -1,3 +1,10 @@
+# [7.0.0](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.570...v7.0.0) (2023-03-05)
+
+
+### Breaking Changes
+
+* upgrade ([94bce7d](https://github.com/sprucelabsai/jest-json-reporter/commit/94bce7d))
+
 ## [6.0.570](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.569...v6.0.570) (2023-03-03)
 
 ## [6.0.569](https://github.com/sprucelabsai/jest-json-reporter/compare/v6.0.568...v6.0.569) (2023-03-03)
