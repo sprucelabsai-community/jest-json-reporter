@@ -10,8 +10,7 @@
   "skill": {
     "namespace": "jest-json-reporter",
     "upgradeIgnoreList": [
-      "@sprucelabs/spruce-test",
-      "@sprucelabs/resolve-path-aliases"
+      "@sprucelabs/spruce-test"
     ]
   },
   "main": "./build/JsonReporter.js",
@@ -59,9 +58,9 @@
   "dependencies": {},
   "devDependencies": {
     "@jest/reporters": "^29.7.0",
-    "@sprucelabs/resolve-path-aliases": "^1.1.123",
+    "@sprucelabs/resolve-path-aliases": "^1.1.284",
     "@sprucelabs/semantic-release": "^4.0.8",
-    "@sprucelabs/test": "^8.0.42",
+    "@sprucelabs/test": "^8.0.43",
     "@types/node": "^20.11.25",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^8.2.2",
