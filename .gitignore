@@ -19,3 +19,5 @@ build/
 yarn.lock
 .env
 .eslintcache
+
+**/.spruce/*cache.json

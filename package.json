@@ -60,7 +60,7 @@
     "@jest/reporters": "^29.7.0",
     "@sprucelabs/resolve-path-aliases": "^1.1.294",
     "@sprucelabs/semantic-release": "^4.0.8",
-    "@sprucelabs/test": "^8.0.47",
+    "@sprucelabs/test": "^8.0.48",
     "@types/node": "^20.11.30",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^8.2.2",
@@ -69,7 +69,7 @@
     "jest": "^29.7.0",
     "prettier": "^3.2.5",
     "ts-node": "^10.9.2",
-    "tsc-watch": "^6.1.0",
+    "tsc-watch": "^6.2.0",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.4.3"
   },
