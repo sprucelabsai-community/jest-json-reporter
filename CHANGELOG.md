@@ -1,3 +1,10 @@
+# [8.0.0](https://github.com/sprucelabsai-community/jest-json-reporter/compare/v7.0.208...v8.0.0) (2024-04-17)
+
+
+### Breaking Changes
+
+* bump ([91ad1bd](https://github.com/sprucelabsai-community/jest-json-reporter/commit/91ad1bd))
+
 ## [7.0.208](https://github.com/sprucelabsai-community/jest-json-reporter/compare/v7.0.207...v7.0.208) (2024-04-17)
 
 ## [7.0.207](https://github.com/sprucelabsai-community/jest-json-reporter/compare/v7.0.206...v7.0.207) (2024-04-04)
