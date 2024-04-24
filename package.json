@@ -52,8 +52,7 @@
     "post.watch.build": "yarn run build.copy-files && yarn run build.resolve-paths",
     "resolve-paths.lint": "yarn run build.resolve-paths ; yarn run lint",
     "watch.rebuild": "yarn run clean.all && yarn install && yarn run watch.build.dev",
-    "watch.tsc": "tsc -w",
-    "watch.lint": "concurrently 'yarn run lint' \"chokidar 'src/**/*' -c 'yarn run lint.tsc'\""
+    "watch.tsc": "tsc -w"
   },
   "dependencies": {},
   "devDependencies": {
@@ -63,7 +62,6 @@
     "@sprucelabs/test": "^9.0.10",
     "@types/node": "^20.12.7",
     "chokidar-cli": "^3.0.0",
-    "concurrently": "^8.2.2",
     "eslint": "^9.1.1",
     "eslint-config-spruce": "^11.2.14",
     "jest": "^29.7.0",
