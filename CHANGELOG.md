@@ -1,3 +1,5 @@
+## [8.0.52](https://github.com/sprucelabsai-community/jest-json-reporter/compare/v8.0.51...v8.0.52) (2024-06-05)
+
 ## [8.0.51](https://github.com/sprucelabsai-community/jest-json-reporter/compare/v8.0.50...v8.0.51) (2024-06-05)
 
 ## [8.0.50](https://github.com/sprucelabsai-community/jest-json-reporter/compare/v8.0.49...v8.0.50) (2024-06-05)
