@@ -55,8 +55,8 @@
   "devDependencies": {
     "@jest/reporters": "^29.7.0",
     "@sprucelabs/resolve-path-aliases": "^2.0.47",
-    "@sprucelabs/semantic-release": "^5.0.1",
-    "@sprucelabs/test": "^9.0.33",
+    "@sprucelabs/semantic-release": "^5.0.2",
+    "@sprucelabs/test": "^9.0.34",
     "@types/node": "^20.14.8",
     "chokidar-cli": "^3.0.0",
     "eslint": "^9.5.0",
