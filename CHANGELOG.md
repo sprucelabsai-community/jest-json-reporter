@@ -1,3 +1,10 @@
+# [9.0.0](https://github.com/sprucelabsai-community/jest-json-reporter/compare/v8.0.608...v9.0.0) (2025-06-10)
+
+
+### Breaking Changes
+
+* jest update ([7ca940c](https://github.com/sprucelabsai-community/jest-json-reporter/commit/7ca940c))
+
 ## [8.0.608](https://github.com/sprucelabsai-community/jest-json-reporter/compare/v8.0.607...v8.0.608) (2025-06-05)
 
 ## [8.0.607](https://github.com/sprucelabsai-community/jest-json-reporter/compare/v8.0.606...v8.0.607) (2025-06-02)
