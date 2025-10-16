@@ -57,7 +57,7 @@
     "@sprucelabs/resolve-path-aliases": "^3.0.28",
     "@sprucelabs/semantic-release": "^5.0.2",
     "@sprucelabs/test": "^10.0.24",
-    "@types/node": "^24.7.2",
+    "@types/node": "^24.8.0",
     "chokidar-cli": "^3.0.0",
     "eslint": "^9.37.0",
     "eslint-config-spruce": "^11.2.26",
