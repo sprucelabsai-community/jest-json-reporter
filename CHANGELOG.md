@@ -1,3 +1,8 @@
+## <small>9.0.75 (2025-11-08)</small>
+
+* chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([f886ce4](https://github.com/sprucelabsai-community/jest-json-reporter/commit/f886ce4))
+* chore(auto-upgrade): upgraded packages [upgrade-all] ([77a92d9](https://github.com/sprucelabsai-community/jest-json-reporter/commit/77a92d9))
+
 ## [9.0.74](https://github.com/sprucelabsai-community/jest-json-reporter/compare/v9.0.73...v9.0.74) (2025-11-08)
 
 ## [9.0.73](https://github.com/sprucelabsai-community/jest-json-reporter/compare/v9.0.72...v9.0.73) (2025-10-31)
