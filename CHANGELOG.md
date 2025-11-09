@@ -1,3 +1,7 @@
+## 10.0.0 (2025-11-09)
+
+* major: progress ([007b462](https://github.com/sprucelabsai-community/jest-json-reporter/commit/007b462))
+
 ## <small>9.0.75 (2025-11-08)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([f886ce4](https://github.com/sprucelabsai-community/jest-json-reporter/commit/f886ce4))
