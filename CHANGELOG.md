@@ -1,3 +1,8 @@
+## <small>10.0.9 (2025-11-29)</small>
+
+* chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([5eb83e8](https://github.com/sprucelabsai-community/jest-json-reporter/commit/5eb83e8))
+* chore(auto-upgrade): upgraded packages [upgrade-all] ([224a701](https://github.com/sprucelabsai-community/jest-json-reporter/commit/224a701))
+
 ## <small>10.0.8 (2025-11-29)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([bd159c5](https://github.com/sprucelabsai-community/jest-json-reporter/commit/bd159c5))
