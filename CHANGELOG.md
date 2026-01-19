@@ -1,3 +1,8 @@
+## <small>10.0.20 (2026-01-19)</small>
+
+* chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([ccbf701](https://github.com/sprucelabsai-community/jest-json-reporter/commit/ccbf701))
+* chore(auto-upgrade): upgraded packages [upgrade-all] ([72cd9b3](https://github.com/sprucelabsai-community/jest-json-reporter/commit/72cd9b3))
+
 ## <small>10.0.19 (2026-01-07)</small>
 
 * patch: upgrade dependencies ([805f881](https://github.com/sprucelabsai-community/jest-json-reporter/commit/805f881))
