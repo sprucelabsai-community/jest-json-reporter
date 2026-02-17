@@ -1,3 +1,7 @@
+## <small>10.0.22 (2026-02-17)</small>
+
+* patch: upgrade dependencies ([7a3cee2](https://github.com/sprucelabsai-community/jest-json-reporter/commit/7a3cee2))
+
 ## <small>10.0.21 (2026-01-27)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([eb061a3](https://github.com/sprucelabsai-community/jest-json-reporter/commit/eb061a3))
