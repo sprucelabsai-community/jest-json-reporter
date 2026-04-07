@@ -54,19 +54,19 @@
   "dependencies": {},
   "devDependencies": {
     "@jest/reporters": "^30.3.0",
-    "@sprucelabs/resolve-path-aliases": "^4.0.23",
+    "@sprucelabs/resolve-path-aliases": "^4.0.24",
     "@sprucelabs/semantic-release": "^6.0.0",
-    "@sprucelabs/test": "^11.1.6",
-    "@types/node": "^25.5.0",
+    "@sprucelabs/test": "^11.1.7",
+    "@types/node": "^25.5.2",
     "chokidar-cli": "^3.0.0",
-    "eslint": "^10.0.3",
+    "eslint": "^10.2.0",
     "eslint-config-spruce": "^11.2.35",
     "jest": "^30.3.0",
     "prettier": "^3.8.1",
     "ts-node": "^10.9.2",
     "tsc-watch": "^7.2.0",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.2"
   },
   "jest": {
     "maxWorkers": 4,
