@@ -1,3 +1,7 @@
+## <small>10.0.33 (2026-04-07)</small>
+
+* Upgrade dependencies and fix TypeScript 6.0 tsconfig deprecations ([a0fa70f](https://github.com/sprucelabsai-community/jest-json-reporter/commit/a0fa70f))
+
 ## <small>10.0.32 (2026-03-13)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([341d00e](https://github.com/sprucelabsai-community/jest-json-reporter/commit/341d00e))
